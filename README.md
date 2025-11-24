@@ -1,239 +1,242 @@
+```
+                                          satrajit@rutgers
+        @@@@@@@@@@@@@@@@                  ────────────────────────────────────────────────
+      @@@@@@@@@@@@@@@@@@@@                OS: MS ECE (Machine Learning)
+    @@@@@@@@@@@@@@@@@@@@@@@@              University: Rutgers University - New Brunswick
+   @@@@@@@        @@@@@@@@@@@@            GPA: 4.0 / 4.0
+  @@@@@@@          @@@@@@@@@@@            Research: Graphics | GPU | Neural Rendering
+  @@@@@@            @@@@@@@@@@            Exchange: Princeton University
+  @@@@@@            @@@@@@@@@@            ────────────────────────────────────────────────
+  @@@@@@@          @@@@@@@@@@@            
+   @@@@@@@        @@@@@@@@@@@@            Languages.Systems: C++20, C, CUDA C++
+    @@@@@@@@@@@@@@@@@@@@@@@@              Languages.ML: Python, PyTorch, TensorFlow
+      @@@@@@@@@@@@@@@@@@@@                Languages.Web: JavaScript, TypeScript
+        @@@@@@@@@@@@@@@@                  Languages.Shading: GLSL, HLSL
+           @@@@@@@@                       ────────────────────────────────────────────────
+                                          
+                                          Graphics.APIs: OpenGL 4.6, Vulkan, CUDA 12.x
+                                          Graphics.Techniques: Render Graphs, PBR
+                                          Graphics.Research: GPU Scheduling, Interop
+                                          ────────────────────────────────────────────────
+                                          
+                                          ML.Vision: NeRF, 3D Gaussian Splatting
+                                          ML.Domains: Scene Reconstruction, Neural Render
+                                          ML.Multimodal: Audiovisual Perception
+                                          ────────────────────────────────────────────────
+                                          
+                                          Tools.Build: CMake, Ninja, Git
+                                          Tools.Debug: RenderDoc, NVIDIA Nsight
+                                          Tools.Systems: Linux, WSL2, Docker
+                                          ────────────────────────────────────────────────
+```
+
+---
+
+## RESEARCH INTERESTS
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│  Real-Time Rendering Systems                                        │
+│  └─ GPU scheduling algorithms and render graph optimization         │
+│  └─ Hardware-software co-design for graphics pipelines              │
+│  └─ CPU-GPU parallelism and synchronization primitives              │
+│                                                                     │
+│  Neural Rendering                                                   │
+│  └─ Neural radiance fields and 3D Gaussian splatting                │
+│  └─ Differentiable rendering and inverse graphics                   │
+│  └─ Efficient training for real-time applications                   │
+│                                                                     │
+│  Computational Photography                                          │
+│  └─ Physics-based image relighting and material capture             │
+│  └─ Multi-view geometry and camera calibration                      │
+│  └─ Structure from motion and dense reconstruction                  │
+│                                                                     │
+│  Immersive Systems                                                  │
+│  └─ VR/AR rendering pipelines and optimization                      │
+│  └─ Real-time physics simulation on GPU                             │
+│  └─ Human-computer interaction in virtual environments              │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## CURRENT WORK
+
+### LAGEngine - Graphics Research Testbed
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│ PROJECT    : Custom C++ Game Engine & GPU Scheduling Research        │
+│ STATUS     : Active Development                                       │
+│ FOCUS      : Performance Measurement & Optimization                   │
+├──────────────────────────────────────────────────────────────────────┤
+│                                                                       │
+│ Architecture                                                          │
+│ ├─ DAG-based render graph with explicit pass dependencies            │
+│ ├─ Automatic resource lifetime tracking and barrier insertion        │
+│ ├─ Multithreaded work-stealing task scheduler                        │
+│ └─ Lock-free job queue for CPU-GPU overlap                           │
+│                                                                       │
+│ GPU Interoperability                                                  │
+│ ├─ CUDA-OpenGL zero-copy buffer sharing                              │
+│ ├─ Direct GPU buffer writes via mapped memory                        │
+│ └─ Synchronized texture updates between compute and graphics         │
+│                                                                       │
+│ Instrumentation                                                       │
+│ ├─ Per-frame timing with CPU and GPU timestamps                      │
+│ ├─ Command queue depth and occupancy metrics                         │
+│ ├─ Synchronization overhead profiling                                │
+│ └─ GPU utilization and memory bandwidth analysis                     │
+│                                                                       │
+│ Goal: Identify scheduling bottlenecks through empirical measurement  │
+│                                                                       │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+### Neural Scene Reconstruction - Princeton Research Exchange
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│ PROGRAM    : Princeton University Research Exchange                  │
+│ DURATION   : 2024                                                     │
+│ FOCUS      : Neural Rendering Techniques                             │
+├──────────────────────────────────────────────────────────────────────┤
+│                                                                       │
+│ Neural Radiance Fields (NeRF)                                         │
+│ └─ Volumetric scene representation with neural networks              │
+│ └─ Differentiable volume rendering for novel view synthesis          │
+│ └─ Training strategies for sparse and dense view scenarios           │
+│                                                                       │
+│ 3D Gaussian Splatting                                                 │
+│ └─ Explicit 3D scene representation with Gaussian primitives         │
+│ └─ Real-time rendering through rasterization                         │
+│ └─ Optimization for high-quality reconstruction                      │
+│                                                                       │
+│ Neural Character Generation                                           │
+│ └─ Animatable 3D avatar creation from limited data                   │
+│ └─ Neural skinning and deformation models                            │
+│ └─ Real-time rendering of dynamic human characters                   │
+│                                                                       │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## TECHNICAL PROJECTS
+
+```
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ VR/AR Systems Portfolio                                            │
+│ ├─ VR Fitness Application                                          │
+│ │  └─ 3rd Place, Google x GeeksforGeeks "Solving for India"       │
+│ ├─ VR Warehouse Training System                                    │
+│ │  └─ Interactive learning modules and spatial annotation         │
+│ ├─ Architectural Visualization Platform                            │
+│ │  └─ Real-time walkthroughs with dynamic lighting               │
+│ └─ Virtual Cinema Experience                                       │
+│    └─ Social VR environment with synchronized playback            │
+│                                                                    │
+│ Computer Vision Projects                                           │
+│ ├─ Geometry-Guided Image Relighting                               │
+│ │  └─ Extended StyLitGAN with physics-based constraints           │
+│ ├─ Stereo Reconstruction System                                    │
+│ │  └─ Disparity estimation and 3D point cloud generation          │
+│ └─ Multi-View Geometry Pipeline                                    │
+│    └─ Epipolar geometry and structure from motion                 │
+│                                                                    │
+│ Software Engineering                                               │
+│ ├─ Code & Conquer - Gamified Coding Platform                      │
+│ │  └─ Full-stack with Docker execution engine, Stripe payments    │
+│ ├─ Quantitative Trading Infrastructure                             │
+│ │  └─ Real-time data, backtesting, workflow automation           │
+│ └─ Physics Simulation with CUDA                                    │
+│    └─ Parallel rigid body dynamics and collision detection        │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## EDUCATION
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│ Master of Science in Electrical & Computer Engineering              │
+│ Rutgers University - New Brunswick                                  │
+│ Expected: May 2025 | GPA: 4.0 / 4.0                                │
+│                                                                     │
+│ Concentration: Machine Learning                                     │
+│                                                                     │
+│ Relevant Coursework:                                                │
+│ ├─ Machine Vision                                                   │
+│ ├─ Software Engineering                                             │
+│ ├─ Programming for Finance                                          │
+│ ├─ Computer Graphics                                                │
+│ ├─ GPU Computing                                                    │
+│ └─ Deep Learning                                                    │
+│                                                                     │
+│ Research Exchange:                                                  │
+│ └─ Princeton University - Neural Rendering & 3D Reconstruction      │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## GITHUB STATISTICS
+
 <div align="center">
 
-```
-████████████████████████████████████████████████████████████████
-█                                                              █
-█                  S Y N T H W A V E   R U N N E R            █
-█                                                              █
-████████████████████████████████████████████████████████████████
-    ___                                              ___
-   /   \          SCORE: ∞                          /   \
-  /  ●  \         HI: 999999                       /  ●  \
- /_______\                                        /_______\
-                          __
-                         / _)     
-                  .-^^^-/ /       [PRESS SPACE]
-           __    /      /
-          /  \__/       /         
-         /              \
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-```
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=satrajitghosh183&show_icons=true&theme=default&hide_border=true&title_color=000000&icon_color=000000&text_color=000000&bg_color=ffffff" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=satrajitghosh183&theme=default&hide_border=true&background=ffffff&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=35&duration=2000&pause=500&color=FFFFFF&center=true&vCenter=true&width=800&height=100&lines=SATRAJIT+GHOSH;GRAPHICS+%7C+GPU+%7C+VR%2FAR;REAL-TIME+RENDERING+%E2%96%B6%EF%B8%8F;NEURAL+RENDERING+%E2%96%B6%EF%B8%8F;GAME+ENGINE+DEV+%E2%96%B6%EF%B8%8F" alt="Typing SVG" />
-
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=satrajitghosh183&layout=compact&theme=default&hide_border=true&title_color=000000&text_color=000000&bg_color=ffffff&langs_count=8" />
 
 </div>
 
 ---
 
-## 🦖 PLAYER STATS
+## RESEARCH PHILOSOPHY
 
 ```
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║  NAME ........... Satrajit Ghosh                         ║
-║  CLASS .......... MS ECE (Machine Learning)              ║
-║  GUILD .......... Rutgers University                     ║
-║  LEVEL .......... 4.0 / 4.0 GPA                          ║
-║  SPEC ........... Graphics│GPU│VR/AR                     ║
-║  ENGINE ......... LAGEngine (C++/OpenGL/CUDA)            ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║  "Measure honestly. Build iteratively. Tune based on data."      ║
+║                                                                   ║
+║  The best research emerges from the careful interplay between    ║
+║  theoretical understanding and empirical validation. My approach ║
+║  emphasizes rigorous measurement, systematic experimentation,    ║
+║  and evidence-based optimization.                                ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 🎮 SKILL TREE
-
-<table>
-<tr>
-<td width="50%">
+## CONTACT
 
 ```
-███ GRAPHICS PROGRAMMING ███
-
-████████████ C++ / OpenGL
-████████████ GLSL / Shaders
-███████████░ CUDA Compute
-██████████░░ Vulkan / DX
-████████████ Physics Sim
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│ Email.Personal : sg2231@rutgers.edu                                 │
+│ LinkedIn       : linkedin.com/in/satrajit-ghosh                     │
+│ GitHub         : github.com/satrajitghosh183                        │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
-
-</td>
-<td width="50%">
-
-```
-███ ML / 3D VISION ███
-
-███████████░ PyTorch
-███████████░ NeRF / 3DGS
-██████████░░ Neural Render
-███████████░ Scene Recon
-█████████░░░ Multimodal
-```
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-### ⚡ EQUIPPED ITEMS
-
-`[C++20]` `[CUDA 12.x]` `[OpenGL 4.6]` `[Python]` `[JavaScript]` `[GLSL]` `[CMake]` `[Git]` `[RenderDoc]` `[NSight]` `[Docker]` `[Linux]`
-
-</div>
 
 ---
-
-## 🌃 ACTIVE QUESTS
-
-### 🎯 MAIN QUEST: LAGEngine
-
-```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  🦖 CUSTOM GAME ENGINE & RESEARCH TESTBED              ┃
-┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃                                                         ┃
-┃  ▶ DAG-based render graph                              ┃
-┃  ▶ Multithreaded work-stealing scheduler               ┃
-┃  ▶ CUDA–OpenGL interop magic                           ┃
-┃  ▶ Real-time perf instrumentation                      ┃
-┃  ▶ Frame time / GPU utilization tracking               ┃
-┃                                                         ┃
-┃  STATUS: [████████████████░░░░] 80% COMPLETE           ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
-
-### 🥽 SIDE QUEST: VR/AR Systems
-
-```
-╔═══════════════════════════════════════════════════════╗
-║                                                       ║
-║  🏆 VR Fitness Game                                  ║
-║     └─ 3rd Place @ Google × GeeksforGeeks           ║
-║        "Solving for India" Competition               ║
-║                                                       ║
-║  🏭 VR Warehouse Training                            ║
-║     └─ Interactive learning modules                  ║
-║                                                       ║
-║  🏠 VR Architectural Tours                           ║
-║     └─ Real-time client walkthroughs                ║
-║                                                       ║
-║  🎬 VR Movie Theatre                                 ║
-║     └─ Lockdown entertainment solution               ║
-║                                                       ║
-╚═══════════════════════════════════════════════════════╝
-```
-
-### 🧪 SPECIAL EVENT: Neural Rendering [Princeton Exchange]
-
-```
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-  ◆ Neural Radiance Fields (NeRF)
-  ◆ 3D Gaussian Splatting  
-  ◆ Neural Scene Reconstruction
-  ◆ Animatable 3D Avatars
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-```
-
-### 🔬 DAILY CHALLENGES
-
-- **McGurk Effect Studies** → Audiovisual perception in deep models
-- **Quant Trading Tools** → Signal processing & backtesting automation
-
----
-
-## 📊 GAME STATS
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=satrajitghosh183&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=satrajitghosh183&theme=dark&hide_border=true&background=000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF" />
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=satrajitghosh183&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=FFFFFF&text_color=FFFFFF&langs_count=8" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=satrajitghosh183&theme=onedark&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" />
-
-![Metrics](github-metrics.svg)
-
-</div>
-
----
-
-## 🎯 ACHIEVEMENTS UNLOCKED
 
 <div align="center">
 
 ```
-┏━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃   🏆 4.0 GPA   ┃  ⚡ 60 FPS    ┃  🎮 ENGINE    ┃
-┃   MAINTAINED   ┃   SUSTAINED   ┃   ARCHITECT   ┃
-┗━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃  🥉 GOOGLE    ┃  🧠 NEURAL    ┃  🎨 RENDER    ┃
-┃   CHALLENGE   ┃   RENDERING   ┃   PIPELINE    ┃
-┗━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┛
+Last Updated: November 2024
 ```
 
-</div>
-
----
-
-## 🌆 PERFORMANCE METRICS
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════╗
-║                                                       ║
-║  ⚡ FRAME TIME ............. < 16.67ms (60 FPS)      ║
-║  🎮 GPU UTILIZATION ........ 95%+                    ║
-║  🔥 DRAW CALLS ............. Batched & Optimized     ║
-║  💾 MEMORY BANDWIDTH ....... Max via Interop         ║
-║  ✨ CODE QUALITY ........... Production-Grade        ║
-║                                                       ║
-╚═══════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-## 📡 CONNECT TO SERVER
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/EMAIL-sg2231%40rutgers.edu-FFFFFF?style=for-the-badge&logo=gmail&logoColor=black&labelColor=000000)](mailto:sg2231@rutgers.edu)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Satrajit__Ghosh-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=000000)](https://www.linkedin.com/in/satrajit-ghosh/)
-[![GitHub](https://img.shields.io/badge/GITHUB-satrajitghosh183-FFFFFF?style=for-the-badge&logo=github&logoColor=black&labelColor=000000)](https://github.com/satrajitghosh183)
-
-<br>
-
-```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  "Measure honestly. Build iteratively. Tune by data." ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
-
-<img src="https://komarev.com/ghpvc/?username=satrajitghosh183&color=black&style=for-the-badge&label=VISITORS" />
-
-### ⚡ POWERED BY: C++20 • OpenGL 4.6 • CUDA 12.x • Real-Time Passion ⚡
-
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
-</div>
-
-```
-                                                   
-   🦖 ────────────────────────────────────────► 🏁
-                                                   
-```
+[![Profile Views](https://komarev.com/ghpvc/?username=satrajitghosh183&color=black&style=flat-square&label=Profile+Views)](https://github.com/satrajitghosh183)
 
 </div>
