@@ -1,166 +1,178 @@
+<!-- Dino / terminal themed profile -->
+
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=190&section=header&text=Satrajit%20Ghosh&fontSize=50&fontAlignY=32&animation=fadeIn&fontColor=ffffff&desc=Real-time%20Graphics%20%E2%80%A2%20Game%20Engines%20%E2%80%A2%20VR%20Systems&descAlignY=58"
-    alt="Satrajit Ghosh -- Graphics and Machine Learning Engineer"
-  />
+  <code>HIGH SCORE 000000   CURRENT 000000   WORLD 1-1   STATE: RENDERING</code>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/satrajit-ghosh/">
-    <img src="https://img.shields.io/badge/LinkedIn-Satrajit%20Ghosh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:sg2231@rutgers.edu">
-    <img src="https://img.shields.io/badge/Email-sg2231%40rutgers.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+  <pre>
+           __
+          / _)
+   .-^^^-/ /
+__/       /
+<__.|_|-|_|
+  </pre>
 </p>
 
-<!-- "Navigation bar" – each badge jumps to a section below -->
 <p align="center">
-  <a href="#-player-overview">
-    <img src="https://img.shields.io/badge/Start-Player%20Overview-4b6cb7?style=flat-square&logo=gamepad&logoColor=white" />
-  </a>
-  <a href="#-tech-tree">
-    <img src="https://img.shields.io/badge/Skill%20Tree-Tech%20Stack-8e44ad?style=flat-square" />
-  </a>
-  <a href="#%EF%B8%8F-engine-room--projects">
-    <img src="https://img.shields.io/badge/Play-Projects-16a085?style=flat-square" />
-  </a>
-  <a href="#-hud--github-metrics">
-    <img src="https://img.shields.io/badge/HUD-GitHub%20Metrics-f39c12?style=flat-square" />
-  </a>
-  <a href="#-ping">
-    <img src="https://img.shields.io/badge/Contact-Ping%20me-e74c3c?style=flat-square" />
-  </a>
+  <code>Connection lost. Falling back to offline mode: build your own engine.</code>
 </p>
 
 ---
 
-## 🎮 Player Overview
+~~~text
+satrajit@lagengine:~$ neofetch
 
-I’m **Satrajit Ghosh**, a **Master’s student in Electrical & Computer Engineering (Machine Learning)** at  
-**Rutgers University – New Brunswick** (GPA **4.0 / 4.0**).
+Player ............. Satrajit Ghosh
+Role ............... MS ECE (Machine Learning), Rutgers University – New Brunswick
+GPA ................ 4.0 / 4.0
 
-My main arena is **real-time graphics and game engines**:
+Focus .............. Real-time graphics, GPU scheduling, VR / AR systems
+Current Engine ..... LAGEngine (C++ / OpenGL / CUDA)
+Status ............. Rendering frames, profiling bottlenecks, tuning schedulers
 
-- ⚡ **Real-time rendering & GPU scheduling**
-- 🧱 **Game engines & physics simulation**
-- 🥽 **VR/AR training and immersive experiences**
-- 🧠 **Neural rendering & 3D vision**
+Languages .......... C++, C, Python, JavaScript / TypeScript, CUDA
+Graphics ........... OpenGL, GLSL, render graphs, physics simulation
+ML / 3D Vision ..... PyTorch, NeRF, Gaussian Splatting, neural scene reconstruction
+Tooling ............ Git, CMake, Linux, Windows, GitHub Actions, Docker (when needed)
 
-Most of my current work lives inside **LAGEngine**, my custom **C++/OpenGL/CUDA** engine that doubles as a research testbed for:
-
-- 🕸️ **DAG-based render graphs**
-- 🧵 **Multithreaded work-stealing schedulers**
-- 🔗 **CUDA–OpenGL interoperability**
-- 📉 **GPU stream & utilization tuning for real-time scenes**
-
-I care about **systems that ship, can be profiled, and can be improved with real numbers** – not vibes.
+Contact ............ sg2231@rutgers.edu
+Links .............. linkedin.com/in/satrajit-ghosh
+~~~
 
 ---
 
-## 🧱 Tech Tree
+## About
+
+I am a Master’s student in Electrical and Computer Engineering (Machine Learning) at  
+Rutgers University – New Brunswick. I work at the intersection of real-time graphics,  
+GPU task scheduling, and VR / AR systems.
+
+Most of my current work lives inside LAGEngine, my custom C++ / OpenGL / CUDA engine  
+that doubles as a research testbed for:
+
+- DAG-based render graphs with explicit passes and resources  
+- Multithreaded work-stealing schedulers  
+- CUDA–OpenGL interoperability for direct writes into graphics buffers and textures  
+- GPU stream and utilization tuning for real-time scenes  
+
+I care about systems that ship, can be profiled, and can be improved with real numbers.
+
+---
+
+## Skill Tree
 
 <details open>
-  <summary><b>Core languages & runtime</b></summary>
+  <summary><b>Core languages and runtime</b></summary>
 
   <br>
 
-  - <code>C++</code>, <code>C</code>, <code>Python</code>, <code>JavaScript / TypeScript</code>, <code>CUDA</code>  
-  - Memory management, multithreading, low-level performance tuning
+  - C++, C  
+  - Python  
+  - JavaScript / TypeScript  
+  - CUDA  
+  - Concurrency, memory management, low-level performance tuning
+
 </details>
 
 <details>
-  <summary><b>Graphics / Game dev</b></summary>
+  <summary><b>Graphics and game development</b></summary>
 
   <br>
 
-  - <code>OpenGL</code>, <code>GLSL</code>  
-  - Render graphs, frame pipelines, sync & GPU/CPU overlap  
-  - Physics engines, ECS-style architecture, VR/AR integration
+  - OpenGL, GLSL  
+  - Render graphs and frame pipelines  
+  - GPU / CPU overlap, synchronization, profiling  
+  - Physics engines, game-loop architecture, VR / AR integration
+
 </details>
 
 <details>
-  <summary><b>ML / 3D vision</b></summary>
+  <summary><b>Machine learning and 3D vision</b></summary>
 
   <br>
 
-  - <code>PyTorch</code>  
+  - PyTorch  
   - NeRF, Gaussian Splatting, neural scene reconstruction  
-  - Multimodal perception (audio–visual models, e.g. McGurk effect)
+  - Multimodal perception (audio–visual models, McGurk-style experiments)
+
 </details>
 
 <details>
-  <summary><b>Tooling & infra</b></summary>
+  <summary><b>Tooling and infrastructure</b></summary>
 
   <br>
 
-  - <code>Git</code>, <code>CMake</code>, Linux / Windows  
-  - GitHub Actions, Docker (when useful)  
-  - Profilers, logging, benchmarking
+  - Git, CMake  
+  - Linux and Windows  
+  - GitHub Actions, basic Docker  
+  - Instrumentation, logging, benchmarking
+
 </details>
 
 ---
 
-## 🏭 Engine Room – Projects
+## Active Runs (Selected Projects)
 
-### Click to expand each “module”.
+### LAGEngine – C++ / OpenGL / CUDA engine and research platform
 
-<details open>
-  <summary><b>🎯 LAGEngine – C++/OpenGL/CUDA engine + research platform</b></summary>
+- Custom 2D / 3D game and physics engine used as the base for my master’s thesis.  
+- Implements a DAG-aware render graph with explicit passes and resources.  
+- Uses multithreaded scheduling and CUDA–OpenGL interop so GPU kernels can write directly  
+  into graphics buffers and textures.  
+- Instrumented for frame timings, queue depths, synchronization costs, and GPU utilization  
+  to compare scheduling policies honestly.
 
-  <br>
-
-  - Custom **2D/3D game and physics engine** used as the base for my master’s thesis.  
-  - Implements a **DAG-aware render graph** with explicit passes and resources.  
-  - Uses **multithreaded scheduling** and **CUDA–OpenGL interop** so GPU kernels can write directly into graphics buffers and textures.  
-  - Instrumented for **frame timings**, **queue depths**, **sync costs**, and **GPU utilization** to compare scheduling policies honestly.  
-
-  👉 Repo: [LAGEngine](https://github.com/satrajitghosh183/LAGEngine) · <code>C++</code> · <code>OpenGL</code> · <code>CUDA</code>
-</details>
-
-<details>
-  <summary><b>🥽 VR / AR systems – Training & experiences</b></summary>
-
-  <br>
-
-  - **VR fitness / exercise game** – 6-month project that placed **3rd** in the  
-    **Google & GeeksforGeeks “Solving for India”** competition (gamified workouts + deep-learning-based tracking).  
-  - **VR warehouse training** – industrial warehouse reconstructed in VR with **annotation and learning modules**  
-    for step-by-step operator training.  
-  - **VR house tours for architecture** – interactive VR walkthroughs so clients can experience designs before construction.  
-  - **VR movie theatre experiences** – VR environments and mini-games built for entertainment during and after lockdown.  
-
-  This line of work feeds into a **VR-related publication** and multiple **VR hackathon wins**.
-</details>
-
-<details>
-  <summary><b>🧠 Neural rendering & 3D vision (Princeton exchange)</b></summary>
-
-  <br>
-
-  Through a competitive exchange program at **Princeton University**, I’ve worked on:
-
-  - **Neural Radiance Fields (NeRF)** – photorealistic 3D scenes from multi-view images via volumetric rendering.  
-  - **Gaussian Splatting** – real-time point-based rendering for dynamic scenes.  
-  - **Neural scene reconstruction & character generation** – pipelines for **animatable 3D avatars** from unstructured images.
-</details>
-
-<details>
-  <summary><b>📡 Multimodal & quant-ish side quests</b></summary>
-
-  <br>
-
-  - **McGurk effect experiments** – testing how deep models handle conflicting audio–visual speech cues with custom  
-    pipelines and evaluation scripts.  
-  - **Quant and tooling** – small engines and scripts for **signal generation**, **backtesting**, and **workflow automation**  
-    around trading / data analysis.
-</details>
+Repository: [LAGEngine](https://github.com/satrajitghosh183/LAGEngine)
 
 ---
 
-## 📊 HUD – GitHub Metrics
+### VR / AR systems
 
-> Auto-generated with <code>lowlighter/metrics</code> via GitHub Actions.
+- VR fitness and exercise game built as a six-month project that placed third in the  
+  Google and GeeksforGeeks “Solving for India” competition (gamified workouts with  
+  deep-learning-based tracking).  
+- VR warehouse training: industrial warehouse reconstructed in VR with annotation and  
+  learning modules for step-by-step operator training.  
+- VR house tours for an architecture use case: interactive VR walkthroughs so clients  
+  can experience designs before construction.  
+- VR movie theatre experiences: VR environments and mini-games built for entertainment  
+  during and after lockdown.
+
+This line of work led to a VR-related publication and multiple VR hackathon wins.
+
+---
+
+### Neural rendering and 3D vision (Princeton exchange)
+
+Through a competitive exchange program at Princeton University I have worked on:
+
+- Neural Radiance Fields (NeRF) for photorealistic 3D scenes from multi-view images  
+- Gaussian Splatting for real-time point-based rendering of dynamic scenes  
+- Neural scene reconstruction and neural character generation pipelines for  
+  animatable 3D avatars from unstructured images  
+
+---
+
+### Multimodal and quantitative side projects
+
+- McGurk effect experiments on deep models: pipelines to test how models handle  
+  conflicting audio–visual speech cues, with custom evaluation scripts and visualizations.  
+- Quantitative tooling: engines and scripts for signal generation, backtesting, and  
+  workflow automation around trading and data analysis.
+
+---
+
+## Stats and HUD
+
+These sections use popular tools from the Awesome GitHub Profile README ecosystem  
+(github-readme-stats, lowlighter/metrics, and similar tools).
+
+### GitHub metrics (lowlighter/metrics)
+
+~~~text
+satrajit@lagengine:~$ cat github-metrics.svg
+~~~
 
 <p align="center">
   <img
@@ -169,11 +181,27 @@ I care about **systems that ship, can be profiled, and can be improved with real
   />
 </p>
 
+### GitHub activity cards (Anurag Hazra)
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=satrajitghosh183&show_icons=true&theme=dark&hide_border=true"
+    alt="GitHub stats"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=satrajitghosh183&layout=compact&theme=dark&hide_border=true"
+    alt="Top languages"
+  />
+</p>
+
 ---
 
-## 📡 Ping
+## Contact
 
-- 💼 LinkedIn: [Satrajit Ghosh](https://www.linkedin.com/in/satrajit-ghosh/)
-- ✉️ Email: [sg2231@rutgers.edu](mailto:sg2231@rutgers.edu)
+- Email: [sg2231@rutgers.edu](mailto:sg2231@rutgers.edu)  
+- LinkedIn: [https://www.linkedin.com/in/satrajit-ghosh/](https://www.linkedin.com/in/satrajit-ghosh/)
 
-Always happy to talk about **engines**, **GPU scheduling**, **VR/AR**, or **ML-heavy interactive systems**.
+If you want to talk about engines, GPU scheduling, VR / AR, or ML-heavy interactive systems, feel free to reach out.
